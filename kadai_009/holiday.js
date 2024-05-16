@@ -8,9 +8,7 @@ for(let i = 0; i <=15; i++ ){
 
 let j = 0;
 
-console.log(holidays[j])
-
- while(holidays[j] != "勤労感謝の日"){
+while(j !== holidays.length){
+  console.log(holidays[j])
   j++;
-  console.log(holidays[j]);
 }
